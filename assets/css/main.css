@@ -199,3 +199,6 @@ section.footer div.container{margin: 80px auto; border-top: 1px solid #d2d2d2; p
 div.user-actions{display: block; position: absolute; right: 6%; bottom: 25%; z-index: 99999; }
 
 .marg-80{margin: 80px auto;} div.menu{display: none; position: fixed; top: 0%; left: 0%; width: 100%; height: 100%; background: #000; color: #fff; z-index: 99999;-moz-transition: all 1500ms linear; -webkit-transition: all 1500ms linear; -o-transition: all 1500ms linear; transition: all 1500ms linear; } div.menu ul{display: block; float: none; width: 50%; margin: 0px auto;} div.menu ul li{float: left; margin-left: 10px;} div.menu ul li a{color: #fff; font-size: 16px; padding: 10px; font-weight: 700; line-height: 10;} div.menu ul li:before{display: none; width: 100%; height: 2px; content: ''; background: red; position: relative;} div.menu ul li:hover:before{display: block;} div.menu span.logo-box{position: absolute;height: 100px;padding: 10px;border-radius: 100px; overflow: hidden;}  div.menu span.logo-box img{height: 100%;} div.menu i.fa{position: absolute;right: 10%;font-size: 20px;top: 15px; cursor: pointer;} div.feature-gal{width: 100%;float: left;display: block;}
+
+.primary-color{ background: #333; color: #fff; font-weight: normal;}
+div.ht-2x{height: 200px; overflow: hidden;}
