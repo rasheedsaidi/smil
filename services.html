@@ -13,10 +13,15 @@
         <link href="assets/css/animate.css" type="text/css" rel="stylesheet">
         <link href="assets/css/responsive.css" type="text/css" rel="stylesheet">
         <style>
-            body{background: #000; color: #fff;} header{background: #fff;} .header-reveal{color: #333;}  .item:before{display: none;} .item:after{display: none;} footer{background: none;} .item.active:hover img{transform: none;} section.gallery .primary-color:hover img{transform: scale(1.5);}  section.gallery .secondary-color:hover img{transform: scale(1.5);}  section.gallery div.gal-box h4{text-transform: capitalize; margin: 20px 15px;margin-bottom: 15px; font-weight: bold; font-size: 22px;} section.gallery div.gal-box p{padding: 5px 15px; font-size: 14px; font-weight: bold;} section.gallery div.gal-box span{position: absolute; width: 100%; height: 100%; background: #fff; color: #333; text-align: center; left: -100%; top: 0; right: auto; display: none; font-size: 18px; font-weight: 600;-moz-transition: all 500ms linear; -webkit-transition: all 500ms linear;-o-transition: all 500ms linear;  transition: all 500ms linear;} .gal-box span i.fa{font-size: 30px;margin-top: 40px;} .gal-box span a.btn{display: block; margin: 30px auto; text-align: center; width: 80%;} section.gallery div.gal-box:hover span{display: block; left: 0%;} #gal-modal{display: none; width: 100%; height: 100%; position: fixed; top: 0%; left: 0%; z-index: 9999999; background: #fff;overflow: scroll;} #gal-modal .container{display: none; width: 90%;margin: 7% auto;height: 500px;padding: 0px;} #gal-modal .desc{margin-top: -100px; width: 100%;background: #333; min-height: 100px;display: block;position: relative; padding: 10px 10px; font-size: 18px; font-weight: normal; text-transform: capitalize;} #gal-modal div.col-md-4{padding: 10px 20px; font-weight: 600;} #gal-modal div.col-md-4 h4{font-size: 42px; font-weight: bold;} #gal-modal div.col-md-4 p{font-weight: bold; font-size: 16px;} #gal-modal .item.active img{ -ms-animation: fadeIn .5s linear; -webkit-animation: fadeIn .5s linear; -o-animation: fadeIn .5s linear; animation: fadeIn .5s linear;} #gal-modal .user-actions{bottom: 5%; background: #fff;} #gal-modal i.fa-times{position: absolute; color: #000; right: 5%; top: 5%; z-index: 99999; font-size: 32px; display: block; cursor: pointer;}
+            body{background: #000; color: #fff;} header{background: #fff;} .header-reveal{color: #333;}  .item:before{display: none;} .item:after{display: none;} footer{background: none;} .item.active:hover img{transform: none;} section.gallery .primary-color:hover img{transform: scale(1.5);}  section.gallery .secondary-color:hover img{transform: scale(1.5);} section.gallery div.gal-box{ opacity: 0.8; -moz-transition: all 500ms linear; -webkit-transition: all 500ms linear;-o-transition: all 500ms linear;  transition: all 500ms linear; cursor: pointer;} section.gallery div.gal-box h4{text-transform: uppercase; margin: 20px -320px;margin-bottom: 15px; font-weight: bold; font-size: 32px; transform: rotate(-90deg); -moz-transition: all 500ms linear; -webkit-transition: all 500ms linear;-o-transition: all 500ms linear;  transition: all 500ms linear;} section.gallery div.gal-box h4:after{content: ''; width: 10%; height: 2px; display: block; background: #fff; position: relative; margin-top: 2px; -moz-transition: all 500ms linear; -webkit-transition: all 500ms linear;-o-transition: all 500ms linear;  transition: all 500ms linear;} section.gallery div.gal-box:hover h4:after{width: 15%;} section.gallery div.gal-box p{padding: 5px 15px; font-size: 14px;} section.gallery div.gal-box span{position: absolute; width: 100%; height: 100%; background: #fff; color: #333; text-align: center; left: -100%; top: 0; right: auto; display: none; font-size: 18px; font-weight: 600;-moz-transition: all 500ms linear; -webkit-transition: all 500ms linear;-o-transition: all 500ms linear;  transition: all 500ms linear;} .gal-box span i.fa{font-size: 30px;margin-top: 40px;} .gal-box span a.btn{display: block; margin: 30px auto; text-align: center; width: 80%;} section.gallery div.gal-box:hover span{display: block; left: 0%;} section.gallery div.gal-box:hover{opacity: 1;} section.gallery div.gal-box:hover h4{margin:  20px -345px;} #gal-modal{display: none; width: 100%; height: 100%; position: fixed; top: 0%; left: 0%; z-index: 9999999; background: #fff;overflow: scroll;} #gal-modal .container{display: none; width: 90%;margin: 7% auto;height: 500px;padding: 0px;} #gal-modal .desc{margin-top: -100px; width: 100%;background: #333; min-height: 100px;display: block;position: relative; padding: 10px 10px; font-size: 18px; font-weight: normal; text-transform: capitalize;} #gal-modal div.col-md-4{padding: 10px 20px; font-weight: 600;} #gal-modal div.col-md-4 h4{font-size: 42px; font-weight: bold;} #gal-modal div.col-md-4 p{font-weight: bold; font-size: 16px;} #gal-modal .item.active img{ -ms-animation: fadeIn .5s linear; -webkit-animation: fadeIn .5s linear; -o-animation: fadeIn .5s linear; animation: fadeIn .5s linear;} #gal-modal .user-actions{bottom: 5%; background: #fff;} #gal-modal i.fa-times{position: absolute; color: #000; right: 5%; top: 5%; z-index: 99999; font-size: 32px; display: block; cursor: pointer;} .gHead-sml{font-size: 62px; margin-top: 0px;} a.btn{width: auto;padding: 10px 15px;border-radius: 300px;text-align: center;word-break: break-word;display: block;/* float: left; */top: -40px;position: relative; background: none; box-shadow: none;} a.btn:before{display: none;} .gallery p.main-dtl{font-weight: 600;padding: 0px;margin-bottom: 80px;}
             
-            @media(max-width: 800px){.item{height: auto;}.ht-2x{height: auto; float: left;} .ht-25x{height: auto; float: left;} .ht-3x{height: auto; float: left;} .ht-35x{height: auto; float: left;} .ht-4x{height: auto; float: left;} .ht-45x{height: auto; float: left;} .ht-5x{height: auto; float: left;} .ht-55x{height: auto; float: left;} .ht-6x{height: auto; float: left;}  #gal-modal{position: fixed;} .gal-box span i.fa{margin-top: auto;}#gal-modal .user-actions { bottom: 0%;left: 0%;background: #fff;position: relative;float: left;} .gal-box span a.btn{margin: 5px auto;} #gal-modal .desc{margin-top: auto;}
+            @media(max-width:1100px){
+                section.gallery div.gal-box h4{font-size: 18px;}  #gal-modal{position: fixed;} .gal-box span i.fa{margin-top: auto;}#gal-modal .user-actions { bottom: 0%;left: 0%;background: #fff;position: relative;float: left;} .gal-box span a.btn{margin: 5px auto;} #gal-modal .desc{margin-top: auto;}.ht-2x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-25x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-3x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-35x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-4x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-45x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-5x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-55x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;} .ht-6x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;width: 100%;}  section.gallery div.gal-box h4{transform: rotate(0deg); margin: 50px 15px; font-size: 38px;} section.gallery div.gal-box:hover h4{ margin: 50px 15px;}
             }
+            
+            @media(max-width: 800px){.item{height: auto;}.ht-2x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-25x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-3x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-35x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-4x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-45x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-5x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-55x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;} .ht-6x{height: auto; float: left;padding-bottom: 20px; margin-bottom: 10px;}  #gal-modal{position: fixed;} .gal-box span i.fa{margin-top: auto;}#gal-modal .user-actions { bottom: 0%;left: 0%;background: #fff;position: relative;float: left;} .gal-box span a.btn{margin: 5px auto;} #gal-modal .desc{margin-top: auto;} 
+            }
+            @media(max-width: 480px){section.gallery div.gal-box h4{font-size: 18px;}}
         </style>
     </head>
     <body>
@@ -27,7 +32,7 @@
         <header id="header" class="animateDown">
                 <div class="col-md-9">
                     <span class="logo-box">
-                        <a href="index.html"><img src="assets/img/logo.png" alt="Solution media and infotech logo" class="logo"></a>
+                        <img src="assets/img/logo.png" alt="cars Exotic" class="logo">
                     </span>
                     <span class="c-name">SMIL</span>
                     <h4>solution media and infotech limited</h4>
@@ -38,57 +43,32 @@
         </header>
         <section class="page2-content gallery">
             <div class="container marg-80">
-                <div class="col-md-4 ht-5x">
-                    <h4 class="gHead" style="margin-left: 0px;">Our Gallery</h4>
-                </div>
-                <div class="col-md-8">
-                    <div class="col-md-4 ht-2x bgc-1 gal-box" data-id="">
-                        <h4>HIP PRAISE BLAST</h4>
-                        <p>HIP praise blast is an annual night of awesome praise and worship with exaltation. It is an opportunity to praise and appreciate God for his protection all year round.</p>
-                        <span>
-                            <i class="fa fa-eye"></i>
-                            <a class="btn view-gal" data-id="1">view details</a>
-                        </span>
+                <h4 class="gHead gHead-sml" style="margin-left: 0px;">our Services</h4>
+                <p class="main-dtl">We render complete turn-key solutions for multimedia laser shows, Cinematography, documentary and post-production (Final cut), Large & Screen Printing. We are the first choice of Corporate and multinational organizations for Product lunch, Award Nights, Concerts and State Carnivals.</p>
+                <div class="col-md-12">
+                    <div class="col-md-2 ht-55x primary-color gal-box" data-id="">
+                        <h4>Cinematography</h4>
+                        <a class="btn view-gal" data-id="1">view details</a>
                     </div>
-                    <div class="col-md-4 ht-2x bgc-2 gal-box" data-id="">
-                        <h4>DANCE AFRIQUE</h4>
-                        <p>This is an annual concert poised at celebrating the rich diversity of the African culture through live performing music.</p>
-                        <span>
-                            <i class="fa fa-eye"></i>
+                    <div class="col-md-2 ht-6x secondary-color gal-box" data-id="">
+                        <h4>Show Light Display</h4>
                             <a class="btn view-gal" data-id="2">view details</a>
-                        </span>
                     </div>                    
-                    <div class="col-md-4 ht-2x bgc-3 gal-box" data-id="">
-                        <h4>SOUND</h4>
-                        <p>If you are looking for top notch quality sound for any event, you need not search anymore.</p>
-                        <span>
-                            <i class="fa fa-eye"></i>
+                    <div class="col-md-2 ht-5x primary-color gal-box" data-id="">
+                        <h4>Show Tents</h4>
                             <a class="btn view-gal" data-id="3">view details</a>
-                        </span>
                     </div>                    
-                    <div class="col-md-6 ht-2x bgc-4 gal-box" data-id="">
-                        <h4>DIGITAL PRINTING</h4>
-                        <p>SMIL offers digital printing solutions to best meet your brand identity needs.</p>
-                        <span>
-                            <i class="fa fa-eye"></i>
+                    <div class="col-md-2 ht-55x secondary-color gal-box" data-id="">
+                        <h4>Hi-Impact Studios.</h4>
                             <a class="btn view-gal" data-id="4">view details</a>
-                        </span>
                     </div>                    
-                    <div class="col-md-6 ht-2x bgc-7 gal-box" data-id="">
-                        <h4>STAGE</h4>
-                        <p>We specialize in the design and Installation of modular stages.</p>
-                        <span>
-                            <i class="fa fa-eye"></i>
+                    <div class="col-md-2 ht-5x  gal-box" data-id="">
+                        <h4>Hi-Impact Planet.</h4>
                             <a class="btn view-gal" data-id="5">view details</a>
-                        </span>
                     </div>                    
-                    <div class="col-md-12 ht-2x bgc-6 gal-box" data-id="">
-                        <h4>PRODUCTION</h4>
-                        <p>Exit a world of lethargic make belief but carry the imagination with you into real-time and real-life 3 dimensionally.</p>
-                        <span>
-                            <i class="fa fa-eye"></i>
+                    <div class="col-md-2 ht-55x primary-color gal-box" data-id="">
+                        <h4>Digital Printing</h4>
                             <a class="btn view-gal" data-id="6">view details</a>
-                        </span>
                     </div>                     
                 </div>
             </div>
@@ -96,9 +76,18 @@
         <div id="gal-modal" class="modal">
             <i class="fa fa-times" id="cls-modal"></i>
             <div class="container modal-container" id="1">
-                <div class="col-md-4 bgc-1">
-                    <h4>HIP PRAISE BLAST</h4>
-                    <p>HIP praise blast is an annual night of awesome praise and worship with exaltation. It is an opportunity to praise and appreciate God for his protection all year round. Its stage boast of a captivating structure of about 43 meters wide, and 13 meters high that ensures the audience is entertained. The lineup of multi-talented gospel artists comes with a mixture of both international and local exceptional musicians to captivate the audience with soul inspiring songs. It takes place at the HIP arena, which comes with private security personnel’s and measures, as well as conveniences and transportation to and fro from the venue, which makes the event unique.</p>
+                <div class="col-md-4 secondary-color">
+                    <h4>Cinematography</h4>
+                    <p>We package standard and quality documentaries, film production and all forms commercials.
+Our professional state of the art multimedia studios can compete anywhere in the world, as they
+are equipped with the latest in media technology, making it possible to demonstrate, pre-program
+and rehearse even large shows under realistic conditions. Solution also handles:
+</p>
+                    <li>Product Launch</li>
+                    <li>Corporate Presentations and Awards</li>
+                    <li> Concerts</li>
+                    <li>Inaugural ceremonies</li>
+                    <li>Rebranding</li>
                 </div>
                 <div class="col-md-8">
                     <div class="listing-cont">
@@ -127,9 +116,19 @@
                 </div>                
             </div>
             <div class="container modal-container" id="2">
-                <div class="col-md-4 bgc-2">
-                    <h4>DANCE AFRIQUE</h4>
-                    <p>This is an annual concert poised at celebrating the rich diversity of the African culture through live performing music. Its first edition took place in Dubai in 2014, then at Wembly Arena London 2015 and Dubai 2015 respectively. Popular African artist are revved up to deliver the best concert experiences that afro beat lovers have ever seen.. It boasts of International artists such as Akon, Awilo logomba, Flavour N’abania, Shatta wale, funke akindele and eddie kadi. This is the fastest growing intercontinental African concert globally.</p>
+                <div class="col-md-4 secondary-color">
+                    <h4>Show Light Display</h4>
+                    <p>In SMIL, you will find a large image projector that transforms the surface of its target to assume
+the desired image, design or logo shot on it. It can be shot on high rise building, tents, interior or
+exterior of halls or any wide and large surface area. It projects at 30mx30m and even more, call it
+SMIL PRO when next you ask about it.
+Phantom Screen, a double effect digital screen and light for widescreen image and video displays
+up to 100 Square meters. It creates a general aesthetic sight of live transmission with magnificent
+illumination indoor or outdoor.
+Moving Heads are no longer strange to many but for the high intensity moving spot, wash light
+with colourful effects, wide angle and long throw lenses that SMIL has makes it unique. SMIL
+can create customized lighting effects of logo and designs for individuals, corporate
+organizations and have the moving heads throw them about.</p>
                 </div>
                 <div class="col-md-8">
                     <div class="listing-cont">
@@ -158,15 +157,15 @@
                 </div>                
             </div>
             <div class="container modal-container" id="3">
-                <div class="col-md-4 bgc-3">
-                    <h4>SOUND</h4>
-                    <p>If you are looking for top notch quality sound for any event, you need not search anymore. Solution media and Infotech limited, with our state of the art equipment, cutting edge technology, and versatility of our engineers, offers live sound reinforcement and recording studio services. We are leading provider of live sound equipment and can provide sound services for a live audience of 1000 – 500,000 people.</p>
-<p>Our portfolio includes leading brands such as JBL, DBX, MIDAS, ALLEN & HEALTH, SHURE, SENHEISSER, AKG and DPA among others. We have the ability to set up in multiple locations and we have over 100 boxes of JBL line arrays allowing from maximum coverage. Our MIDAS
-PRO 9 and PRO 3 digital consoles offer flexibility connectivity and control for house mix and monitor mix.</p>
-<p>We have extensive rider-friendly top-of-the-line backlines and are always s expanding to meet the growing demands of artists and performers from different genres. Our wide range of microphones backlines (keyboard, drums, permission, guitars, rings & combo) are well combined with our accessories such as audio links, rigging hardware and DI boxes.</p>
-<p>The Senheisser 5000 series, 2000 series and SHURE UR2 micro phones give excellent sound quality and are tailored for lead and backup vocals.
-SMIL is a one-stop shop for all your audio and sound enhancing needs irrespective of the type of event.
-Think of the versatility and acoustic prowess of RCCG’s congress, think of the acoustic agility and finesse of the 2012 total experience concert, think SMIL sound.</p>
+                <div class="col-md-4 secondary-color">
+                    <h4>Show Tents</h4>
+                    <p>These are unique set of tents ranging from 86m x 50m, 36m x 16m, 18m x18m, 10m x10m and
+so much more. It is connected together by tunnels hereby having everything you need at same
+venue such as changing &resting room, dinner &conference/Church services .e.t.c., all at same
+place without having to move from place to place.
+These are in different adoring colors with over 2,000 cinema sitters and 500 banquet chairs &
+tables, beautiful flooring with rugs, the newest water-base air-conditioning technology giving the
+best cooling effect, fabric & velcro back drapes with a big light box to display text/images.</p>
                 </div>
                 <div class="col-md-8">
                     <div class="listing-cont">
@@ -195,16 +194,16 @@ Think of the versatility and acoustic prowess of RCCG’s congress, think of the
                 </div>                
             </div>
             <div class="container modal-container" id="4">
-                <div class="col-md-4 bgc-4">
-                    <h4>DIGITAL PRINTING</h4>
-                    <p>
-SMIL offers digital printing solutions to best meet your brand identity needs. Equipped with capable multi-purpose machines such as the 8 color, print and cut-featured Roland VS 540, the print multimedia enabled HP design Jet L25500 and the Sublimation Print and Ink Epson Pro 4880, we do professional digital and large format with the latest print technology. We color qualities and images that are well designed and consistent from start to finish.</p>
-<p>We also carry out various digital fancy prints, and part of our commitment to quality is our onsite finishing facility which enables us to oversee the quality of your job. Our expertise includes large formatting printing, Sublimation and Heat transfer, Rock Tiles print, Crystal Photo Glass prints, Mugs, Plates and Aluminum prints, Tee shirts & caps and Onsite Finishing.</p>
-<h4>OUR POINTS INCLUDE:</h4>
-<li>High image quality</li>
-<li>Time effectiveness</li>
-<li> Cost effectiveness</li>
-<li> Highly customizable to suit your needs</li>
+                <div class="col-md-4 secondary-color">
+                    <h4>Hi-Impact Studios.</h4>
+                    <p>Hi-Impact Studios is a subsidiary of Solution Media and Infotech, situated on the outskirts of
+Lagos, Nigeria. It is the umbrella body of Hi-Impact TV and Hi-Impact Radio with an essence of
+education and entertainment from which the pay-off line “securing the future” was coined.
+Hi-Impact TV is the first full HD station in Nigeria, transmitting to over 79 countries in the world,
+quality entertainment programmes with an array of exceptional international titles, captivating
+telenovelas, indigenously produced contents that celebrate the African culture of dance, drama and
+music from different African ethnic groups, and a few others from other non-African climes.
+Our fully equipped television and radio stations have the finest set designs and world class</p>
                 </div>
                 <div class="col-md-8">
                     <div class="listing-cont">
@@ -233,10 +232,13 @@ SMIL offers digital printing solutions to best meet your brand identity needs. E
                 </div>                
             </div>
             <div class="container modal-container" id="5">
-                <div class="col-md-4 bgc-7">
-                    <h4>STAGE</h4>
-                    <p>We specialize in the design and Installation of modular stages.</p>
-                    <p>Our world of showlight and special effects, the magical and magnificent world of the water screen, the charm filled ambiance of our tents and our durable and enduring stages all make up the highlight of our engineering expertise. Exit your world of make belief fantasy and enter into our real-time manifestation of it.</p>
+                <div class="col-md-4 secondary-color">
+                    <h4>Hi-Impact Planet.</h4>
+                    <p>Hi-impact Planet is a world-class amusement park with thrilling outdoor rides and exciting indoor
+games positioned for children, teenagers and the whole family to have a fun-filled experience. The
+planet boasts of state-of-the-art facilities such as luxurious apartments, a well-equipped Clinic,
+multi-purpose halls, and souvenir court with a variety of gifts. There is uninterrupted power supply
+and adequate security to ensure smooth operations of the entire facility and safety for all.</p>
                 </div>
                 <div class="col-md-8">
                     <div class="listing-cont">
@@ -265,24 +267,12 @@ SMIL offers digital printing solutions to best meet your brand identity needs. E
                 </div>                
             </div>
             <div class="container modal-container" id="6">
-                <div class="col-md-4 bgc-6">
-                    <h4>PRODUCTION</h4>
-                    <p>Exit a world of lethargic make belief but carry the imagination with you into real-time and real-life 3 dimensionally. Such is the power of our 3D animation production. With our expatriate skill and expertise, we bring you the best know-how in the market today as far as 3D animation production is concerned. We animate your imagination and turn your ideas to killer videos which can talk, move and communicate.</p>
-                    <p>Our dynamic team of animators have built a comprehensive, creative portfolio that has received multiple international awards. We have firmly established a reputation for delivering quality standard of photorealism. Professionalism and speed where beyond what is obtainable in the market today.</p>
-                    <h4>OUR EXPERTISE RANGES FROM:</h4>
-                     <li>VFX Supervision, in studio and on shoots</li>
-                     <li> Production Management</li>
-                     <li> Post-production</li>
-                     <li> Modelling and texturing</li>
-                     <li>3D scanning</li>
-                     <li> Rigging</li>
-                     <li> Animation</li>
-                     <li> Motion Capture (Mocap)</li>
-                     <li> 3D lighting</li>
-                     <li> Camera Match Moving</li>
-                     <li> Compositing</li>
-                     <li> Motion Graphics</li>
-                     <li>Color grading and Color correction</li>
+                <div class="col-md-4 secondary-color">
+                    <h4>Digital Printing</h4>
+                    <p>We engage in various digital fanciful printing arts on ceramic tiles, mugs, rocks, photo crystals, aluminum plates, acrylic awards materials, T-shirt, and caps.</p>
+                     <li> Large Format Prints</li>
+                     <li> Rock Photo Prints</li>
+                     <li>Heat Transfer Prints</li>
                 </div>
                 <div class="col-md-8">
                     <div class="listing-cont">
@@ -354,14 +344,14 @@ SMIL offers digital printing solutions to best meet your brand identity needs. E
         <div class="menu" id="menu">
             <div class="container">
                 <span class="logo-box">
-                    <a href="index.html"><img src="assets/img/logo.png" alt="Solution media and infotech logo" class="logo"></a>
+                    <img src="assets/img/logo.png" alt="cars Exotic" class="logo">
                 </span>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="page.html">About Us</a></li>
+                    <li><a href="page.html">Services</a></li>
+                    <li><a href="page.html">Gallery</a></li>
+                    <li><a href="page.html">Contact Us</a></li>
                 </ul>
                 <i class="fa fa-times" id="cls-menu"></i>
                 <div class="feature-gal">
