@@ -305,3 +305,10 @@ div.ht-2x{height: 200px; overflow: hidden;}
 .bgc-7 {
 	background-color: #ec2228;
 }
+.mb-2 {
+	margin-bottom: 2em;
+}
+.my-2 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
