@@ -281,6 +281,9 @@ section.page2-content.col-lg-1, section.page2-content .col-md-3,section.page2-co
 	overflow: hidden;
 }
 .ht-2x{height: 200px; overflow: hidden;} .ht-25x{height: 250px; overflow: hidden;} .ht-3x{height: 300px; overflow: hidden;} .ht-35x{height: 350px; overflow: hidden;} .ht-4x{height: 400px; overflow: hidden;} .ht-45x{height: 450px; overflow: hidden;}  .ht-5x{height: 500px; overflow: hidden;} .ht-55x{height: 550px; overflow: hidden;} .ht-6x{height: 600px; overflow: hidden;} .gHead{font-size: 100px;margin: 60px 40px; width: 80%; font-weight: bold;} .gHead:after{display: block; height: 2px; width: 30%; background: red; content: ''; margin: 0px; margin-top: 10px;} div.primary-color img{height: 100%; width: auto; margin: 0px auto; opacity: .6;}  div.secondary-color img{height: 100%; width: auto; margin: 0px auto; opacity: .6;} section.page2-content p{font-weight: normal;font-size: 16px; padding: 0px 40px; padding-top: 25px;}
+.h-auto {
+	height: auto !important;
+}
 
 div.ht-2x{height: 200px; overflow: hidden;}
 
