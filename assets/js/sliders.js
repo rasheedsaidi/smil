@@ -14,10 +14,11 @@
             slideIndex++;
             if (slideIndex > slides.length) {slideIndex = 1} 
             slides[slideIndex-1].className += " active";
-            //setTimeout(showSlides, 15000); // Change image every 7 seconds
+            //setTimeout(showSlides, 7000); // Change image every 7 seconds
             
         }
-
+		
+		setInterval(nextSlide, 7000);
 
         prevBtn.onclick = function(){
             prevSlide();
